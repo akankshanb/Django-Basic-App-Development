@@ -35,3 +35,11 @@ To verify that Django can be seen by Python, type python from your shell. Then a
 >>> import django </br>
 >>> print(django.get_version()) </br>
 2.2
+
+# Creating a project
+
+If this is your first time using Django, you’ll have to take care of some initial setup. Namely, you’ll need to auto-generate some code that establishes a Django project – a collection of settings for an instance of Django, including database configuration, Django-specific options and application-specific settings.
+
+From the command line, cd into a directory where you’d like to store your code, then run the following command:
+
+$ django-admin startproject mysite
